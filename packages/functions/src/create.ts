@@ -24,5 +24,5 @@ export const main = handler(async (event) => {
     }
     await dynamoDb.put(params);
     return JSON.stringify(params.Item);
-}
+});
 // "noteId":"7e3a3750-c2f3-11ee-878e-01ce009f2b30"
